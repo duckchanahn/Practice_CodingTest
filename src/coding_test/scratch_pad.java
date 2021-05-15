@@ -9,6 +9,9 @@ public class scratch_pad {
         int i = 9;
         Queue<String> queue = new LinkedList<>();
 
+        int[][] puddles = {{2, 2}};
+
+        System.out.println(puddles[0][0]);
 
         queue.add("!!");
         queue.add("@@");
