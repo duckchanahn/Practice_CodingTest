@@ -1,6 +1,7 @@
 package test;
 
 import java.util.List;
+import org.junit.Test;
 
 public class main {
 
@@ -14,5 +15,11 @@ public class main {
     }
 
 
+    @Test
+    public void 기능_테스트() {
+
+
+
+    }
 
 }
