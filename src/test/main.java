@@ -1,5 +1,6 @@
 package test;
 
+import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
 
@@ -12,6 +13,17 @@ public class main {
 
         List<Object> list_object;
         System.out.println("end");
+
+        String s = "aaa";
+        int length = s.length();
+
+        List<Integer> split_length = new ArrayList<>();
+        for(int i = 1; i <= length/2; i++) {
+            length%i == 0 ? split_length.add(i) : so;
+        }
+
+        System.out.println();
+
     }
 
 
