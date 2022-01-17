@@ -1,0 +1,20 @@
+// github web으로 바로 올리고 fetch 테스트
+
+
+public int[][] solution(int[][] arr1, int[][] arr2) {
+        int[][] answer = new int[arr1.length][arr2[0].length];
+        
+        // x : 1번 세로(고정), y : 2번 가로(고정), i : 2번 세로, j : 2번 가로
+        for(int x = 0; x < arr1.length; x++) {
+            for(int y = 0; y < arr2[0].length; y++) {
+                for(int i = 0; i < arr1[x].length; i++) {
+                    // for(int j = 0; j < ) {
+                    answer[x][y] = answer[x][y] + (arr1[x][i] * arr2[i][y]);
+                    // }
+                }
+            }
+        }
+        
+        
+        return answer;
+    }
